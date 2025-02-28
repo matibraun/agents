@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-y*=rq=57ro&y=pi@f(ws=%1mgjq+)!&os)(%5tz5uthrq+-j9_
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -37,7 +37,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'products',
+    'langchain_app',
+    'meeting',
+    'messaging',
+    'agent_1',
 ]
 
 MIDDLEWARE = [
@@ -125,3 +128,12 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+
+CSRF_TRUSTED_ORIGINS = ["https://1670-2800-21e7-f000-33c-89fb-8820-4f55-6e75.ngrok-free.app"]
+
+REST_FRAMEWORK = {
+    'DEFAULT_RENDERER_CLASSES': [
+        'rest_framework.renderers.JSONRenderer',
+    ]
+}

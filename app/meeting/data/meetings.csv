@@ -1,0 +1,11 @@
+meeting_id,name,phone_number,meeting_date,meeting_time,confirmed,comments,datetime_confirmation
+1,John Doe,+123456789,2025-01-22,10:00 AM,,,
+2,Jane Smith,+987654321,2025-01-22,2:00 PM,,,
+3,Alice Johnson,+555555555,2025-01-23,11:00 AM,,,
+4,Bob Brown,+444444444,2025-01-23,3:00 PM,true,hola que tal,
+5,Charlie Davis,+111111111,2025-01-25,9:00 AM,,,
+6,Eve Adams,+222222222,2025-01-29,1:00 PM,,,
+7,Frank Harris,+333333333,2025-01-27,4:30 PM,true,hola que talsssss,
+8,Grace Lee,+666666666,2025-01-28,8:00 AM,true,"Yes, I will attend the meeting.",
+9,Matias Braun,+5491155786551,2025-02-01,6:00 PM,,,
+10,Ivy Martinez,+888888888,2025-02-01,12:00 PM,,,
